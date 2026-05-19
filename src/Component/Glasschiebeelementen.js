@@ -85,7 +85,7 @@ export default function Glasschiebeelementen() {
       <div className="ueberdachungen-intro">
       <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Glasschiebeelemente
+    <img src={umbrella} alt="Beschreibung"/> Glasschiebeelemente
   </h2>
 
   <p>

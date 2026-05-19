@@ -87,7 +87,7 @@ export default function Lamellendachs() {
       <div className="ueberdachungen-intro">
       <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Lamellendächer
+    <img src={umbrella} alt="Beschreibung" /> Lamellendächer
   </h2>
 
   <p>

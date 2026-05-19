@@ -85,7 +85,7 @@ export default function SolarTerrassenüberdachungen() {
       <div className="ueberdachungen-intro">
      <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Solar-Überdachungen
+    <img src={umbrella} alt="Beschreibung" /> Solar-Überdachungen
   </h2>
 
   <p>

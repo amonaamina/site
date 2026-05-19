@@ -6,7 +6,6 @@ import Footer from "./Component/Footer";
 
 import Home from "./Component/Home";
 import Features from "./Component/Features";
-import PolycarbonateProductSection from "./Component/PolycarbonateProductSection";
 import ProductSection from "./Component/ProductSection";
 import ComparisonSection from "./Component/ComparisonSection";
 import ProductSectionExplore from "./Component/ProductSectionExplore";
@@ -18,7 +17,6 @@ import GoogleReviewsSection from "./Component/GoogleReviewsSection";
 import Whatsapp from "../src/img/whatsapp.png";
 
 import "./App.css";
-import SolarTerrassenüberdachungSection from "./Component/SolarTerrassenüberdachungen";
 import Datenschutzerklärung from "./Component/Datenschutzerklärung";
 import Impressum from "./Component/Impressum";
 import { useEffect } from "react";
@@ -119,7 +117,7 @@ function App() {
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-button">
-  <img  src={Whatsapp}/>
+  <img  src={Whatsapp} alt="Beschreibung"/>
           </a>
       
        </button>

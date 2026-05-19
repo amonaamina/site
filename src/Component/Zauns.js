@@ -85,7 +85,7 @@ export default function Zauns() {
       <div className="ueberdachungen-intro">
     <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Zäune
+    <img src={umbrella} alt="Beschreibung" /> Zäune
   </h2>
 
   <p>

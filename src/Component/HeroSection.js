@@ -8,6 +8,7 @@ import phone from "../img/phone.png";
 import sun from "../img/sun.png";
 import design from "../img/design.png";
 import tools from "../img/design-tools.png";
+import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   const content = [
@@ -32,11 +33,11 @@ export default function HeroSection() {
         {content.map((item, i) => (
           <SwiperSlide key={i}>
             <h1 className="hero-text">
-              <a href="#" className="hero-link">
+              <Link to="/" className="hero-link">
                 <img src={item.image} alt={item.alt} className="hero-icon" />
                 <span>{item.text}</span>
                 <img src={item.image} alt={item.alt} className="hero-icon" />
-              </a>
+              </Link>
             </h1>
           </SwiperSlide>
         ))}

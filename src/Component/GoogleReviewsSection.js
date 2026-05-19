@@ -116,7 +116,7 @@ const GoogleReviewsSection = () => {
                   
                 </div>
 <div className="google-logo">
-                    <img width={20}  height={20}
+                    <img width={20}  height={20} alt="Beschreibung"
                     src={google} />
                 </div>
                 

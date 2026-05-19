@@ -1,4 +1,4 @@
-import React, { useState , useRef  } from "react";
+import React from "react";
 import "./Uberdachungen.css";
 import img from "../img/WhatsApp Image 2026-05-15 at 11.42.30.jpeg";
 import umbrella from '../img/star.png';
@@ -84,7 +84,7 @@ export default function Carpots() {
       <div className="ueberdachungen-intro">
       <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Carports
+    <img src={umbrella} alt="Beschreibung"/> Carports
   </h2>
 
   <p>

@@ -3,7 +3,7 @@ import React, { useState , useRef  } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "./ProductSection.css";
-import { Link, Links } from "react-router-dom";
+import { Link } from "react-router-dom";
 import img from "../img/WhatsApp Image 2026-05-15 at 11.35.39 (1).jpeg";
 import img1 from "../img/WhatsApp Image 2026-05-15 at 11.35.39.jpeg";
 import img2 from "../img/WhatsApp Image 2026-05-15 at 11.35.39 (2).jpeg";

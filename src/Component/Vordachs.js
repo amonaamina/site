@@ -85,7 +85,7 @@ export default function Vordachs() {
       <div className="ueberdachungen-intro">
       <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Vordächer
+    <img src={umbrella}  alt="Beschreibung"/> Vordächer
   </h2>
 
   <p>

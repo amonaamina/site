@@ -1,6 +1,4 @@
 import "./Datenschutzerklärung.css"
-import GoogleReviewsSection from "./GoogleReviewsSection";
-import ReviewSection from "./ReviewSection";
 
 export default function Datenschutzerklärung() {
   return (

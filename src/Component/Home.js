@@ -1,19 +1,15 @@
 
-import ComparisonSection from "./ComparisonSection";
 import Faq from "./Faq";
 import Features from "./Features";
 import GoogleReviewsSection from "./GoogleReviewsSection";
 import "./Home.css";
 import LocationSection from "./LocationSection";
-import PolycarbonateProductSection from "./PolycarbonateProductSection";
 import ProductSection from "./ProductSection";
 import ProductSectionExplore from "./ProductSectionExplore";
-import RatgeberSection from "./RatgeberSection";
 import ReviewSection from "./ReviewSection";
 import homppageImg from "../img/HompageIMg.png";
 import SocialMediaVideoSection from "./SocialVideoSection";
 import ServiceHighlights from "./ServiceHighlights";
-import bild from '../img/Copilot_20260503_120109.png';
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 export default function Home() {
@@ -51,7 +47,7 @@ Mit deiner Wunschüberdachung, zum Selberbauen oder mit Montage.
 
 
       </div>
-      <img src={homppageImg} />
+      <img src={homppageImg}  alt="Beschreibung"/>
 
     </section>
    

@@ -13,9 +13,7 @@ import vorteile from "../img/vorteile.png"
 import kommunikation from "../img/kommunikation (2).png"
 import reparatur from "../img/schlussel.png"
 import schild from "../img/schild (1).png"
-import aussage from "../img/aussage.png"
 import schnelle_lieferung from "../img/schnelle-lieferung (1).png"
-import GoogelReviwComonnent from "./GoogelReviwComonnent";
 import RecommendedProducts from "./RecommendedProducts";
 
 

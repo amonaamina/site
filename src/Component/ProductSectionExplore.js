@@ -1,5 +1,4 @@
 import "./ProductSectionExplore.css";
-import img from "../img/WhatsApp Image 2026-04-20 at 17.37.44.jpeg"
 import { Link } from "react-router-dom";
 import Terrassenüberdachung from "../img/WhatsApp Image 2026-05-15 at 11.35.39 (1).jpeg";
 import gelander from "../img/WhatsApp Image 2026-05-15 at 11.44.35.jpeg";

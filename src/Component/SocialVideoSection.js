@@ -1,7 +1,6 @@
 import React from 'react';
 import './SocialVideoSection.css';
 
-import v1 from "../Vidios/VID-20260502-WA0014.mp4";
 import v2 from "../Vidios/VID-20260502-WA0011.mp4";
 import v3 from "../Vidios/VID-20260503-WA0001.mp4";
 import v4 from "../Vidios/VID-20260503-WA0003.mp4";

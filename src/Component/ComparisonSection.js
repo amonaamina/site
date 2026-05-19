@@ -138,11 +138,11 @@ export default function ComparisonSection() {
           <div className="vergleich-header alu-header">Wintergartenmeister</div>
           <div className="battery full"></div>
           <ul>
-            <li><img src={hakchen} /> Schnelle Gratis Montage/Versand</li>
-            <li><img src={hakchen} /> Qualität Made in Germany</li>
-            <li><img src={hakchen} /> Gratis Beratung & Aufmaß</li>
-            <li><img src={hakchen} /> 2 Jahre Garantie</li>
-            <li><img src={hakchen} /> Profi Montage</li>
+            <li><img src={hakchen} alt="Beschreibung" /> Schnelle Gratis Montage/Versand</li>
+            <li><img src={hakchen} alt="Beschreibung" /> Qualität Made in Germany</li>
+            <li><img src={hakchen} alt="Beschreibung"/> Gratis Beratung & Aufmaß</li>
+            <li><img src={hakchen} alt="Beschreibung"/> 2 Jahre Garantie</li>
+            <li><img src={hakchen} alt="Beschreibung"/> Profi Montage</li>
           </ul>
         </div>
 
@@ -151,11 +151,11 @@ export default function ComparisonSection() {
           <div className="vergleich-header andere-header">Andere Anbieter</div>
           <div className="battery half"></div>
           <ul>
-            <li><img src={schaltflache_loschen} /> Langes Warten nötig</li>
-            <li><img src={schaltflache_loschen} /> Schlechtere Materialien</li>
-            <li><img src={schaltflache_loschen} /> Aufmaß kostenpflichtig</li>
-            <li><img src={schaltflache_loschen} /> Keine Garantie</li>
-            <li><img src={schaltflache_loschen} /> Unzureichende Montage</li>
+            <li><img src={schaltflache_loschen} alt="Beschreibung" /> Langes Warten nötig</li>
+            <li><img src={schaltflache_loschen} alt="Beschreibung"/> Schlechtere Materialien</li>
+            <li><img src={schaltflache_loschen} alt="Beschreibung"/> Aufmaß kostenpflichtig</li>
+            <li><img src={schaltflache_loschen} alt="Beschreibung" /> Keine Garantie</li>
+            <li><img src={schaltflache_loschen} alt="Beschreibung"/> Unzureichende Montage</li>
           </ul>
         </div>
       </div>

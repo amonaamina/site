@@ -85,7 +85,7 @@ export default function Markisen() {
       <div className="ueberdachungen-intro">
     <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Markisen
+    <img src={umbrella} alt="Beschreibung" /> Markisen
   </h2>
 
   <p>

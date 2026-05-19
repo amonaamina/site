@@ -88,7 +88,7 @@ export default function Uberdachungen() {
       </section>
       <div className="ueberdachungen-intro">
       <section className="intro-section">
-        <h2><img src={umbrella} /> Überdachungen</h2>
+        <h2><img src={umbrella} alt="Beschreibung" /> Überdachungen</h2>
         <p>
          Erweitern Sie Ihren Wohnraum und schaffen Sie neue Möglichkeiten zum Wohlfühlen im eigenen Zuhause. Mit den Überdachungen von Wintergartenmeister verbinden Sie Design, Funktion und Komfort auf höchstem Niveau. Unsere Systeme lassen sich flexibel an Ihre Wünsche und Ihr Haus anpassen. </p>
 

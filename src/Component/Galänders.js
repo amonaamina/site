@@ -86,7 +86,7 @@ export default function Galänders() {
       <div className="ueberdachungen-intro">
       <section className="intro-section">
   <h2>
-    <img src={umbrella} /> Geländer
+    <img src={umbrella} alt="Beschreibung" /> Geländer
   </h2>
 
   <p>

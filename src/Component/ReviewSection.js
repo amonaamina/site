@@ -38,13 +38,13 @@ const ReviewSection = () => {
   const reviewCount = 17541;
   const formattedCount = reviewCount.toLocaleString('de-DE');
 
-  const handleReviewClick = () => {
-    window.open(
-      'https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID',
-      '_blank',
-      'noopener,noreferrer'
-    );
-  };
+  // const handleReviewClick = () => {
+  //   window.open(
+  //     'https://search.google.com/local/writereview?placeid=YOUR_PLACE_ID',
+  //     '_blank',
+  //     'noopener,noreferrer'
+  //   );
+  // };
 
   return (
     <section className="review-section" aria-labelledby="review-heading">
