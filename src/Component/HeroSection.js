@@ -5,9 +5,6 @@ import "swiper/css";
 import "./HeroSection.css";
 
 import phone from "../img/phone.png";
-import sun from "../img/sun.png";
-import design from "../img/design.png";
-import tools from "../img/design-tools.png";
 import { Link } from "react-router-dom";
 
 export default function HeroSection() {

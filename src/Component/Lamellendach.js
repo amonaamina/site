@@ -2,7 +2,6 @@ import React, { useState , useRef  } from "react";
 
 import "./CarportPage.css";
 import img from "../img/WhatsApp Image 2026-05-15 at 11.45.29.jpeg";
-import img1 from "../img/WhatsApp Image 2026-05-15 at 11.45.29.jpeg";
 import img2 from "../img/WhatsApp Image 2026-05-15 at 11.45.29 (1).jpeg";
 import zaun from "../img/WhatsApp Image 2026-05-15 at 11.51.31.jpeg";
 import Terrassenüberdachung from "../img/WhatsApp Image 2026-05-15 at 11.35.39 (1).jpeg";
