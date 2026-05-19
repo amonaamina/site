@@ -21,7 +21,7 @@ export default function Impressum() {
       <div className="block">
         <p><b>Tel.:</b> ++491747086562</p>
         <p><b>Fax:</b> ++491747086562</p>
-        <p><b>E-Mail:</b> ceysaas@gmail.com</p>
+        <p><b>E-Mail:</b> info@wintergartenmeister.de</p>
       </div>
 
       <div className="block">

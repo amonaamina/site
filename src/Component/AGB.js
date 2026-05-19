@@ -161,7 +161,7 @@ export default function AGB() {
           <p>Ertugrul Erkan</p>
           <p>Robert Stolz Straße 23</p>
           <p>47057 Düsseldorf</p>
-          <p>E-Mail: ceysaas@gmail.com</p>
+          <p>E-Mail: ınfo@wintergartenmeister.de </p>
           <p>Telefon: +49 174 7086562</p>
         </div>
 

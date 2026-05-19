@@ -48,7 +48,7 @@ export default function Widerruf() {
             <p>Ertugrul Erkan</p>
             <p>Robert Stolz Straße 23</p>
             <p>47057 Düsseldorf</p>
-            <p>E-Mail: ceysaas@gmail.com</p>
+            <p>E-Mail: info@wintergartenmeister.de </p>
             <p>Telefon: +49 174 7086562</p>
           </div>
         </div>
@@ -101,7 +101,7 @@ export default function Widerruf() {
             <p>Ertugrul Erkan</p>
             <p>Robert Stolz Straße 23</p>
             <p>47057 Düsseldorf</p>
-            <p>E-Mail: ceysaas@gmail.com</p>
+            <p>E-Mail: info@wintergartenmeister.de </p>
 
             <br />
 

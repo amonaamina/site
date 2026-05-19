@@ -45,7 +45,7 @@ export default function Footer() {
           <p className="p">Mo-Fr:09:00-18:00</p>
           <p className="p">Sa:09:00-15:00</p>
           <p className="p">Tel:01747086562</p>
-          <p className="p">email:ceysaas@gmail.com</p>
+          <p className="p">email:info@wintergartenmeister.de </p>
         </div>
 
       </div>
