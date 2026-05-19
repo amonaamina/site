@@ -1,0 +1,109 @@
+.agb-container {
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+/* Haupttitel */
+.agb-container h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #111;
+  letter-spacing: 0.3px;
+}
+
+/* Abschnitt */
+.agb-section {
+  margin-bottom: 55px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.agb-section:last-child {
+  border-bottom: none;
+}
+
+/* Titel */
+.agb-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.agb-section h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Text */
+.agb-section p {
+  font-size: 1.05rem;
+  color: #444;
+  margin: 8px 0;
+}
+
+/* Listen */
+.agb-section ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.agb-section li {
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+  color: #444;
+}
+
+/* Entfernte Card-Box → jetzt clean */
+.agb-box {
+  margin: 25px 0;
+  padding-left: 10px;
+  border-left: 3px solid #ccc;
+}
+
+/* Datum */
+.agb-date {
+  margin-top: 60px;
+  text-align: center;
+  color: #777;
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .agb-container {
+    padding: 10px;
+  }
+
+  .agb-container h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .agb-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .agb-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .agb-section p,
+  .agb-section li {
+    font-size: 1rem;
+  }
+
+  .agb-box {
+    border-left: 2px solid #ccc;
+    padding-left: 12px;
+  }
+}

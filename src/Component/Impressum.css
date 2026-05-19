@@ -1,0 +1,95 @@
+.impressum {
+  max-width: 900px;
+  margin: 70px auto;
+  padding: 20px;
+  font-family: "Inter", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+/* Haupttitel */
+.impressum h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #111;
+  letter-spacing: 0.3px;
+}
+
+/* Sektionen */
+.block {
+  margin-bottom: 45px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.block:last-child {
+  border-bottom: none;
+}
+
+/* Titel */
+.impressum h4,
+.block h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111;
+}
+
+/* Text */
+.block p {
+  font-size: 1.05rem;
+  color: #444;
+  margin: 6px 0;
+}
+
+/* Links */
+.block a {
+  color: #005bbb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.block a:hover {
+  text-decoration: underline;
+}
+
+/* Review-Bereich */
+.impreR {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  max-width:100%;
+
+}
+
+.impreR .d {
+  max-width: 80%;
+  padding-bottom: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .impressum {
+    padding: 15px;
+  }
+
+  .block {
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+  }
+
+  .impressum h1 {
+    font-size: 2.2rem;
+  }
+
+  .block h2,
+  .impressum h4 {
+    font-size: 1.3rem;
+  }
+
+  .block p {
+    font-size: 1rem;
+  }
+}

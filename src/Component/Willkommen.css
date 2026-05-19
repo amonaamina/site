@@ -1,0 +1,139 @@
+.simple-intro {
+  padding: 90px 20px;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-intro .dd {
+  max-width: 900px;
+  width: 100%;
+}
+
+.simple-intro__inner {
+  max-width: 820px;
+}
+
+/* Titel */
+.simple-intro__title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.25;
+  color: #111;
+  letter-spacing: -0.5px;
+}
+
+/* Text */
+.simple-intro__text {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  color: #444;
+}
+
+/* Untertitel – ohne vertikale Linie */
+.simple-intro__subheadline {
+  margin-top: 55px;
+  margin-bottom: 18px;
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: #111;
+}
+
+/* Listen */
+.simple-intro__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+/* Minimalistische Premium-Icons */
+.simple-intro__list.icons li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 14px;
+  font-size: 1.15rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.simple-intro__list.icons li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 9px;
+  height: 9px;
+  background: #020a38;;
+  border-radius: 50%;
+}
+
+/* Button */
+.simple-intro__btn {
+  display: inline-block;
+  margin: 25px 0 35px;
+  padding: 15px 28px;
+  border-radius: 8px;
+  border: 2px solid #020a38;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 1.05rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.simple-intro__btn:hover {
+  background: #020a38;;
+  color: #fff;
+}
+
+/* Claim */
+.simple-intro__claim {
+  margin: 45px 0 25px;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: #222;
+}
+
+/* Kontaktlink */
+.kontactWilkommen {
+  text-decoration: underline;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 1.15rem;
+  color: #111;
+}
+
+/* Review-Bereich */
+.simple-intro .d {
+  margin-top: 80px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .simple-intro__title {
+    font-size: 1.3rem;
+  }
+
+  .simple-intro__text {
+    font-size: 0.9rem;
+  }
+
+  .simple-intro__subheadline {
+    font-size: 1rem;
+  }
+
+  .simple-intro__list.icons li {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .simple-intro {
+    display: block;
+  }
+}

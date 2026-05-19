@@ -1,0 +1,83 @@
+.ratgeber-section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.ratgeber-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+ 
+}
+
+.ratgeber-subtitle {
+  font-family: "Lato", sans-serif;
+  color: #64748b;
+  margin-bottom: 50px;
+}
+
+.ratgeber-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 60px;
+
+}
+
+.ratgeber-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ratgeber-card:hover {
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;}
+
+
+.ratgeber-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.ratgeber-content {
+  padding: 20px;
+}
+
+.ratgeber-card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+   color:  #7f5539;
+   text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.ratgeber-card-desc {
+  font-family: "Lato", sans-serif;
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .ratgeber-title {
+    font-size: 2rem;
+  }
+  .ratgeber-image {
+    height: 160px;
+    width: 75%;
+  }
+  .ratgeber-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 60px;
+}
+}

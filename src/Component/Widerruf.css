@@ -1,0 +1,109 @@
+.widerruf-section {
+  padding: 80px 20px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widerruf-container {
+  max-width: 900px;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  color: #222;
+  line-height: 1.75;
+}
+
+/* Haupttitel */
+.widerruf-container h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 60px;
+  color: #111;
+  letter-spacing: 0.3px;
+}
+
+/* Abschnitt */
+.widerruf-box {
+  margin-bottom: 55px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.widerruf-box:last-child {
+  border-bottom: none;
+}
+
+/* Titel */
+.widerruf-box h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+/* Text */
+.widerruf-box p {
+  font-size: 1.05rem;
+  color: #444;
+  margin: 8px 0;
+}
+
+/* Kontaktblock */
+.kontakt-box {
+  margin-top: 20px;
+  line-height: 1.7;
+}
+
+/* Formular */
+.formular {
+  margin-top: 25px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  margin: 20px 0;
+}
+
+.line.small {
+  width: 300px;
+}
+
+/* Review-Bereich */
+.widerruf-section .d {
+  max-width: 70%;
+  margin-top: 80px;
+  padding-bottom: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .widerruf-container {
+    padding: 0 10px;
+  }
+
+  .widerruf-container h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+
+  .widerruf-box h2 {
+    font-size: 1.3rem;
+  }
+
+  .widerruf-box p {
+    font-size: 1rem;
+  }
+
+  .line.small {
+    width: 100%;
+  }
+
+  .widerruf-section .d {
+    width: 100%;
+    margin-top: 40px;
+  }
+}
